@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
 h1 {
-    color: red;
+    color: rgb(188, 190, 12);
 }
 
 #browserTime {
-    color: blue;
+    color: rgb(236, 170, 26);
 }
 
 #serverTime {
-    color: green;
+    color: rgb(50, 77, 235);
 }
 
 .timeBlock {

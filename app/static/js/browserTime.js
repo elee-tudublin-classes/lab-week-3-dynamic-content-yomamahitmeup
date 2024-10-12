@@ -8,6 +8,7 @@ function getTime() {
     }
 }
 
+ //get a reference to the page element where the date and time will be inserted
 const browserTime = document.getElementById('browserTime');
 
 // update browser time
@@ -18,4 +19,5 @@ function updateBrowserTime() {
     setTimeout(updateBrowserTime, 1000);
 }
 
+//call the funtion to start the clock 
 updateBrowserTime();
